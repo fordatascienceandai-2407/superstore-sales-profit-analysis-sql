@@ -28,31 +28,39 @@ The dataset contains information about:
 
 ## Business Questions Solved
 
-1. Top Customers by Sales
-2. Top Products by Category
-3. Regional Sales Contribution
-4. Customer Segmentation
-5. Monthly Sales Trend Analysis
-6. Running Totals
-7. Moving Averages
-8. Profit Ranking by Region
-9. Sales Bucketing using NTILE
-10. Advanced Window Function Analysis
+1. Top 5 Customers by Sales
+2. Top 5 Products by Sales
+3. Total Sales by Region
+4. Total Profit by Category
+5. Total Sales by Segment
+6. Total Profit by Region
+7. Total Sales by Category
+8. Top 10 Most Profitable Products
+9. Loss Making Products
+10. Orders with Sales Above Average
+11. Top Customers Using CTE
+12. Customer Sales Ranking
+13. Top Customer in Each Region
+14. Monthly Sales Trend
+15. Running Total of Sales
+16. Top 3 Products in Each Category
+17. Discount Impact Analysis
 
 ## SQL Concepts Used
 
-- GROUP BY
-- HAVING
-- CASE WHEN
-- CTEs
-- Views
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- NTILE()
-- LAG()
-- SUM() OVER()
-- AVG() OVER()
+• SELECT
+• WHERE
+• GROUP BY
+• ORDER BY
+• HAVING
+• Aggregate Functions
+• Subqueries
+• Common Table Expressions (CTEs)
+• Window Functions
+• RANK()
+• ROW_NUMBER()
+• SUM() OVER()
+• DATE_TRUNC()
 
 ## Tools Used
 
